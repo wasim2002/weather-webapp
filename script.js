@@ -25,28 +25,28 @@ async function checkWeather() {
         document.querySelector(".speed").innerHTML = returnData.wind.speed + " km/h"
     
         if (returnData.weather[0].main == "Haze") {
-            img.src = "images/haze.png"
+            img.src = "./images/haze.png"
         }
         if (returnData.weather[0].main == "Clouds") {
-            img.src = "images/clouds.png"
+            img.src = "./images/clouds.png"
         }
         if (returnData.weather[0].main == "Drizzle") {
-            img.src = "images/drizzle.png"
+            img.src = "./images/drizzle.png"
         }
         if (returnData.weather[0].main == "Mist") {
-            img.src = "images/mist.png"
+            img.src = "./images/mist.png"
         }
         if (returnData.weather[0].main == "Rain") {
-            img.src = "images/rain.png"
+            img.src = "./images/rain.png"
         }
         if (returnData.weather[0].main == "Snow") {
-            img.src = "images/snow.png"
+            img.src = "./images/snow.png"
         }
         if (returnData.weather[0].main == "Wind") {
-            img.src = "images/wind.png"
+            img.src = "./images/wind.png"
         }
         if(returnData.weather[0].main == "Clear"){
-            img.src = "images/clear.png"
+            img.src = "./images/clear.png"
         } 
     }
     
