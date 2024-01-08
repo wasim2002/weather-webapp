@@ -28,7 +28,7 @@ async function checkWeather() {
             img.src = "./images/haze.png"
         }
         if (returnData.weather[0].main == "Clouds") {
-            img.src = "./images/clouds.png"
+            img.src = "./images/cloudy.png"
         }
         if (returnData.weather[0].main == "Drizzle") {
             img.src = "./images/drizzle.png"
